@@ -1,1 +1,229 @@
 /* Copy your CSS code from CodePen below this point */
+.navbar {
+    background-color: #b81a14;
+    padding: 12px 6px;
+  }
+  .navbar .navLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px !important;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .navbar .navLinks li a {
+    padding: 4px 2px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .brandContainer {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(https://drive.google.com/uc?export=view&id=1KVDapld513gDp4XOaLft0qfmeyxhszdV);
+    height: 600px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .brandContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h1.brand-title {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    font-wight: bold;
+    margin: 0px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+     text-shadow:
+         3px 3px 0 #000,
+       -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+  }
+  .brandContainer .cage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    max-width: 280px !important;
+    width: 95%;
+    height: 280px !important;
+    margin: 30px auto 50px auto;
+    background-color: #807c80b6;
+    border-radius: 50%;
+    border: 6px solid #b81a14;
+  }
+  
+  .brandContainer .cage .logo {
+  /*   max-width: 225px; */
+    width: 100%;
+    height: 100%;
+    margin: 10px auto;
+    border-radius: 50%;
+  }
+  .intro {
+    display: flex;
+    justify-content: center;
+    background: #ffe4c4;
+    padding: 30px;
+  }
+  .intro p {
+    color: #b81a14;
+  }
+  .left {
+    text-align: justify;
+    margin-left: 50px;
+    padding: 50px;
+  }
+  .right {
+    max-width: 500px;
+    height: auto;
+    padding: 100px;
+    background-repeat: no-repeat;
+  }
+  .fqm {
+    text-align: center;
+    padding: 20px;  
+    font-family: 'Dancing Script', cursive;
+    font-wight: bold;
+  }
+  .menu-selection {
+    display: flex;
+    justify-content: center;
+  }
+  .wraps {
+    margin-left: 100px;
+    padding: 7px;  
+  }
+  .sides {
+    text-align: start;
+    margin-right: 100px;
+    padding: 7px;
+  }
+  .menu-selection p {
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    text-align: start;
+    font-size: 13px;
+  }
+  h2 {
+    text-align: center;
+    font-family:;
+    font-size: 30px;
+    margin : 0px;
+    color: #b81a14;
+  }
+  h3 {
+    text-align: start;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+  h4 {
+    text-align: start;
+    font-family:;
+    font-size: 18px;
+    color: #b81a14;
+  }
+  .faves {
+    background-color: #b81a14;
+    text-align: center;
+    padding: 30px;
+    color: white;
+  }
+  .faves h2 {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .item {
+    margin: 5px;
+    height: 200px;
+    width: 300px;
+  }
+  .location {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+  #stake {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+  }
+  .gps {
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-item: center;
+    text-align: start;
+    color: #b81a14;
+    background: #ffe4c4;
+  }
+  
+  .gps h2 {
+    text-align: start;
+  /*   justify-content: space-between; */
+    padding: 20px 0px 20px 0px;
+  }
+  #hours ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0px 0px 0px 0px;
+  }
+  .dayntime {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  .social-media {
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-item: center;
+  }
+  .sm-tag {
+    padding: 6px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+  }
+  .LLC {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-item: center
+  }
+  .footer {
+    background-color: #f3ae30;
+    padding: 10px;
+  }
+  .footer p{
+    color: white;
+    font-size: 20px;
+  }
+  
